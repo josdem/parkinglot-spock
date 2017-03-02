@@ -16,4 +16,8 @@ class ParkingLot {
     cars--
   }
 
+  Boolean isFull(){
+    false
+  }
+
 }
