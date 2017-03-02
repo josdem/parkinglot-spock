@@ -17,7 +17,7 @@ class ParkingLot {
   }
 
   Boolean isFull(){
-    false
+    cars >= 5 ? true : false
   }
 
 }
