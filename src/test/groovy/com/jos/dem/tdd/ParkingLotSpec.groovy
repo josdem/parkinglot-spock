@@ -18,7 +18,7 @@ class ParkingLotSpec extends Specification {
       parkingLot.isEmpty() == false
   }
 
-  void "should remove"(){
+  void "should remove a car"(){
     when:"Park and remove"
       parkingLot.park()
       parkingLot.remove()
