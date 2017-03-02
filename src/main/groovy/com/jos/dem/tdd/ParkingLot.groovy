@@ -13,6 +13,7 @@ class ParkingLot {
   }
 
   void remove(){
+    cars--
   }
 
 }
