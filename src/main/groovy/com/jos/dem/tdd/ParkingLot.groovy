@@ -12,4 +12,7 @@ class ParkingLot {
     cars++
   }
 
+  void remove(){
+  }
+
 }
