@@ -37,4 +37,14 @@ class ParkingLotSpec extends Specification {
     parkingLot.isFull()
   }
 
+  void "should throw an exception if exceed capacity"(){
+    when:"We fill parking lot an try to park"
+    for(int i=0; i<MAX_CARS; i++){
+      parkingLot.park()
+    }
+    parkingLot.park()
+    then:"We expect an exception"
+    thrown RuntimeException
+  }
+
 }
