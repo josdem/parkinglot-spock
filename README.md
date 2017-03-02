@@ -1,25 +1,12 @@
-Groovy Application project template
+Parking lot Simple Application
 ------------------------------------
 
-You have just created a basic Groovy application. There is a standard project
-structure for source code and tests.
+This demo application is intended to show how apply TDD in simple steps
 
-In this project you get:
+Acceptance Criteria:
 
-* A Gradle build file
-* A standard project structure:
+* Parking lot should be empty when starts
+* Park increments cars quantity in parking lot
+* Remove decrements cars quantity in parking lot
+* Maximum capacity parking lot is 5 cars
 
-```
-<proj>
-  |
-  +- src
-      |
-      +- main
-      |   |
-      |   +- groovy
-      |
-      +- test
-      |   |
-      |   +- groovy
-      |
-```
