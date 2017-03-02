@@ -2,6 +2,8 @@ package com.jos.dem.tdd
 
 class ParkingLot {
 
+  private final static Integer MAX_CARS = 5
+
   Integer cars = 0
 
   Boolean isEmpty(){
@@ -17,7 +19,7 @@ class ParkingLot {
   }
 
   Boolean isFull(){
-    cars >= 5 ? true : false
+    cars >= MAX_CARS ? true : false
   }
 
 }
