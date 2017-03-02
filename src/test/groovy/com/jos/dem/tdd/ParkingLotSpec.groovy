@@ -11,4 +11,11 @@ class ParkingLotSpec extends Specification {
       parkingLot.isEmpty()
   }
 
+  void "should park"(){
+    when:"Park"
+      parkingLot.park()
+    then:"Is not empty"
+      parkingLot.isEmpty() == false
+  }
+
 }
