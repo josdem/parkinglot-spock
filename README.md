@@ -10,3 +10,10 @@ Acceptance Criteria:
 * Remove decrements cars quantity in parking lot
 * Maximum capacity parking lot is 5 cars
 
+
+#### To Run
+
+```bash
+gradle test
+```
+
