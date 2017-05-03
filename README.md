@@ -11,7 +11,7 @@ Acceptance Criteria:
 * Maximum capacity parking lot is 5 cars
 
 
-#### To Run
+### To Run
 
 ```bash
 gradle test
