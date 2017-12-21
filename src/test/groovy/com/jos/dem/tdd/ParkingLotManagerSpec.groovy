@@ -9,9 +9,9 @@ class ParkingLotManagerSpec extends Specification {
   void "should manage a parking lot"(){
   	given:"A ParkingLot"
   	  ParkingLot parkingLot = Mock(ParkingLot)
-  	when:"We can create a new one"
+  	when:"Manager manages a parking lot"
   	  manager.manage(parkingLot)
-  	then:"Manager can Create a new one"
+  	then:"Manager can inform how many parking lot has"
   	  manager.counts() == 1
   }
 
