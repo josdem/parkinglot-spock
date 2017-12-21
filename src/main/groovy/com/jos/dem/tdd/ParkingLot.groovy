@@ -7,7 +7,7 @@ class ParkingLot {
   Integer cars = 0
 
   Boolean isEmpty(){
-    cars == 0 ? true : false
+    cars == 0
   }
 
   void park(){
@@ -19,7 +19,7 @@ class ParkingLot {
   }
 
   Boolean isFull(){
-    cars >= MAX_CARS ? true : false
+    cars >= MAX_CARS
   }
 
 }
