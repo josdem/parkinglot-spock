@@ -9,7 +9,7 @@ Acceptance Criteria:
 * Park increments cars quantity in parking lot
 * Remove decrements cars quantity in parking lot
 * Maximum capacity parking lot is 5 cars
-* A manager can manage 5 parking lots
+* A manager can manage a parking lot
 
 
 ### To Run
