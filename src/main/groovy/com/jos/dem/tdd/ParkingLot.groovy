@@ -11,8 +11,8 @@ class ParkingLot {
   }
 
   void park(){
-    if(cars == MAX_CARS){
-      throw new RuntimeException('Cars capacity exceeded')
+    if(isFull()){
+      throw new RuntimeException('Cars Capacity Exceeded')
     }
     cars++
   }
