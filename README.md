@@ -5,7 +5,7 @@ This demo application is intended to show how apply TDD in simple steps
 
 Acceptance Criteria:
 
-* Parking lot should be empty when starts (feature/fifth-test)
+* Parking lot should be empty when starts (feature/first-test)
 * Park increments cars quantity in parking lot (feature/second-test)
 * Remove decrements cars quantity in parking lot (feature/third-test)
 * Maximum capacity parking lot is 5 cars (feature/fourth-test)
